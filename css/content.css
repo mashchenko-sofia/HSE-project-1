@@ -1,0 +1,10 @@
+.title-1 {
+    color: rgb(64, 154, 184);
+}
+a {
+    text-decoration: none;
+}
+.nav {
+    background: #eee;
+    border: 1px solid darkblue;
+}
