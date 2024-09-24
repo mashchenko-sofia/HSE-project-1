@@ -1,5 +1,5 @@
 .title-1 {
-    color: rgb(64, 154, 184);
+    color: rgb(184, 64, 122);
 }
 a {
     text-decoration: none;
@@ -7,4 +7,51 @@ a {
 .nav {
     background: #eee;
     border: 1px solid darkblue;
+}
+.article {
+    max-width: 700px;
+    background: lavender;
+    margin: 0 auto;
+    margin-bottom: 300px;
+}
+
+h1 {
+    margin: 66px 0 0 0;
+    font-size: 2em;
+}
+h1 + hr + p {
+    margin-top: 8px;
+    font-size: 22px;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 0.4);
+}
+h1 + hr + p + p {
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+    margin: 50px 0 0 0;
+    font-size: 32px;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 0.8);
+}
+h2 + p, h2 + blockquote {
+    margin-top: 8px;
+}
+
+p, blockquote {
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 34px;
+}
+/* img-box {
+    margin: 0 auto;
+
+} */
+img {
+    margin: 30px auto;
+    border-radius: 30px;
 }
